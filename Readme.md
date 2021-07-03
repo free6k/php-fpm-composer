@@ -1,6 +1,8 @@
 # PHP-FPM-COMPOSER
 The docker image with all popular modules for PHP frameworks as Yii2 or Laravel. Including composer for install packages
 
+[Docker Hub](https://hub.docker.com/r/free6k/php-fpm-composer)
+
 ## How to use
 ### Run as php-fpm daemon on port 9000
 ```
