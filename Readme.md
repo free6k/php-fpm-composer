@@ -29,6 +29,8 @@ services:
 ```
 ### Fast install and run Yii 2 framework
 ```
+cd <to empty directory>
+
 docker run --rm -it -v "$(pwd):/var/www/html" free6k/php-fpm-composer composer create-project --prefer-dist yiisoft/yii2-app-basic .
 
 docker run --rm -it -p '8080:8080' -v "$(pwd):/var/www/html" free6k/php-fpm-composer ./yii serve 0.0.0.0
